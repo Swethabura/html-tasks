@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style> -->
+  </head>
+  <body>
+    <table border="2" width="80%" align="center">
+      <tr style="height: 50px">
+        <th width="5%">S.No.</th>
+        <th width="20%">Topic Name</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td align="center">1</td>
+        <td align="center">HTML Introduction</td>
+        <td>
+          <ul>
+            <li><b>HTML -</b> Hyper Text Markup Language</li>
+            <li>It is a standard markup language</li>
+            <li>HTML is used to create webpages</li>
+            <li>HTML acts as structure to the website</li>
+            <li>
+              It consists of series of elements which is represented by tags
+              which tells the browser how to display the content.
+            </li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">2</td>
+        <td align="center">Markup</td>
+        <td align="justify">
+          A markup language is a computer language that is used to apply layout
+          and formatting conventions to a text document. Markup language makes
+          text more interactive and dynamic. It can turn text into images,
+          tables, links, etc.
+        </td>
+      </tr>
+      <tr>
+        <td align="center">3</td>
+        <td align="center">Hypertext</td>
+        <td align="justify">
+          HyperText simply means "Text within Text." A text has a link within
+          it, is a hypertext. Whenever you click on a link which brings you to a
+          new webpage, you have clicked on a hypertext. HyperText is a way to
+          link two or more web pages (HTML documents) with each other.
+        </td>
+      </tr>
+      <tr>
+        <td align="center">4</td>
+        <td align="center">History of HTML</td>
+        <td>
+          <ul>
+            <li>1991 - Tim Berners-Lee invented HTML</li>
+            <li>1993 - Dave Raggett drafted HTML+</li>
+            <li>1995 - HTML Working Group defined HTML 2.0</li>
+            <li>1997 - W3C Recommendation: HTML 3.2</li>
+            <li>1999 - W3C Recommendation: HTML 4.01</li>
+            <li>2008 - WHATWG HTML5 First Public Draft</li>
+            <li>2012 - WHATWG HTML5 Living Standard</li>
+            <li>2014 - W3C Recommendation: HTML5</li>
+            <li>2016 - W3C Candidate Recommendation: HTML 5.1</li>
+            <li>2017 - W3C Recommendation: HTML5.1 2nd Edition</li>
+            <li>2017 - W3C Recommendation: HTML5.2</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">5</td>
+        <td align="center">Tag</td>
+        <td align="justify">
+          Tags can be defined as the instructions which are being directly
+          embedded in the text of an HTML document. The types of tags used in
+          the HTML document are responsible to tell a web browser to do
+          something (follow the instruction) instead of just displaying text. In
+          an HTML document, all tag names are differentiated from other simple
+          text. The tag names are enclosed in between angle brackets or a ‘less
+          than’ and a ‘greater than’ symbol, (<) and (>).
+        </td>
+      </tr>
+      <tr>
+        <td align="center">6</td>
+        <td align="center">Types of Tags</td>
+        <td>
+          <ul>
+            <li>Paired and unpaired tags</li>
+            <li>Self-closing tags</li>
+            <li>Utility based tags</li>
+          </ul>
+          <p align="justify">
+            The HTML tags can also be simply divided based on basic categories
+            like Basic HTML Root Tags, Formatting tags, Audio and Video Tags,
+            Form and Input Tags, Frame Tags, Link Tags, List Tags, Table Tags,
+            Style Tags, Meta Tags, etc.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">7</td>
+        <td align="center">Paired and unpaired tags</td>
+        <td align="justify">
+          <b>1. Paired tags :</b> An HTML tag is known as a paired tag when the
+          tag consists of an opening tag and a closing tag as its companion tag.
+          An HTML Paired tag starts with an opening tag: the tag name enclosed
+          inside the angle brackets; for example, a paragraph opening tag is
+          written as ‘&lt;p&gt;’. The content follows the opening tag, which
+          ends with an ending tag: the tag name starting with a forward slash;
+          for example, an ending paragraph tag is written as ‘&lt;/p&gt;’. The
+          first tag can be referred to as the ‘Opening Tag’, and the second tag
+          can be called Closing Tag. These paired tags are also called Container
+          Tags. <br />
+          <b>Ex:</b><em>&lt;p&gt; This text is a paragraph . &lt;/p&gt;</em
+          ><br />
+          <b>2. Unpaired tags :</b> An HTML tag is called an unpaired tag when
+          the tag only has an opening tag and does not have a closing tag or a
+          companion tag. The Unpaired HTML tag does not require a closing tag;
+          an opening tag is sufficient in this type. Unpaired tags are sometimes
+          also named as Standalone Tags or Singular Tags since they do not
+          require a companion tag.<br />
+          <b>Ex:</b
+          ><em
+            >&lt;p&gt; This text is a paragraph . &lt;/p&gt; <br />
+            &lt;hr&gt; <br />
+            &lt;i&gt; &lt;b&gt; This is a bold and italicized text &lt;/b&gt;
+            &lt;/i&gt; </em
+          ><br />
+          <b>Note:</b
+          ><em>
+            Here, the &lt;hr&gt; is the unpaired tag used to create a horizontal
+            line. In older versions, you might see hr tag written as &lt;hr/&gt;
+            instead of &lt;hr&gt;. These tags are also called Empty Tag.</em
+          >
+        </td>
+      </tr>
+      <tr>
+        <td align="center">8</td>
+        <td align="center">Self-closing tags</td>
+        <td align="justify">
+          Self-Closing Tags are those HTML tags that do not have a partner tag,
+          where the first tag is the only necessary tag that is valid for the
+          formatting. The main and important information is contained WITHIN the
+          element as its attribute. An image tag is a classic example of a
+          self-closing tag. <br />
+          <b>Ex:</b
+          ><i>&lt;img src="a.jpg" alt="This is an alternate text"&gt;</i>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">9</td>
+        <td align="center">Utility based tags</td>
+        <td align="justify">
+          The HTML tags can be widely differentiated on the basis of their
+          utility, that is, on the basis of the purpose they serve. We can
+          divide them basically into three categories:<br /><b
+            >i) Formatting tags:</b
+          >
+          The HTML tags that help us in the formatting of the texts like the
+          size of the text, font styles, making a text bold, etc. This is done
+          using tags like &lt;font&gt;, &lt;b&gt;, &lt;u&gt;, etc. Tables,
+          divisions, and span tags are also those tags that help format a web
+          page or document and set the layout of the page. Below is a small
+          program using divisions for formatting the page along with some other
+          formatting tags.<br />
+          <b>ii) Structure Tags:</b> The HTML tags that help in structuring the
+          HTML document are called Structure Tags. Description, head, html,
+          title, body, etc., form the group of the page structure tags. The
+          structure tags only assist in creating or forming the basic html page
+          from the root; that is, they do not affect or has any hand in the
+          formatting of texts. So a basic HTML program is the basic group of
+          structural tags: <br />
+          <b>iii) Control Tags: </b>Another category of tags that can be created
+          is ‘Control Tags’. The Script tags, radio buttons or checkboxes, the
+          Form tags, etc., forms the control tags. These are the tags that are
+          used in managing content or managing scripts or libraries that are
+          external. All the form tags, drop-down lists, input text boxes, etc.,
+          are used in interacting with the visitor or the user.
+        </td>
+      </tr>
+      <tr>
+        <td align="center">10</td>
+        <td align="center">HTML Page Structure</td>
+        <td>
+          <i>
+            &lt;!DOCTYPE html&gt; <br />
+            &lt;html&gt; <br />
+            &lt;head&gt; <br />
+            &lt;title&gt;Page title&lt;/title&gt; <br />
+            &lt;/head&gt; <br />
+            &lt;body&gt; <br />
+            &lt;h1&gt;This is a heading&lt;/h1&gt; <br />
+            &lt;p&gt;This is a paragraph.&lt;/p&gt; <br />
+            &lt;p&gt;This is another paragraph.&lt;/p&gt; <br />
+            &lt;/body&gt; &lt;/html&gt; &lt;/td&gt;
+          </i>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">11</td>
+        <td align="center">HTML structure Explanation</td>
+        <td>
+          <ul>
+            <li>
+              The <em>&lt;!DOCTYPE html&gt;</em> declaration defines that this
+              document is an HTML5 document
+            </li>
+            <li>
+              The <em>&lt;html&gt;</em> element is the root element of an HTML
+              page
+            </li>
+            <li>
+              The <em>&lt;head&gt;</em> element contains meta information about
+              the HTML page
+            </li>
+            <li>
+              The <em>&lt;title&gt;</em> element specifies a title for the HTML
+              page (which is shown in the browser's title bar or in the page's
+              tab)
+            </li>
+            <li>
+              The <em>&lt;body&gt;</em> element defines the document's body, and
+              is a container for all the visible contents, such as headings,
+              paragraphs, images, hyperlinks, tables, lists, etc.
+            </li>
+            <li>The <em>&lt;h1&gt;</em> element defines a large heading</li>
+            <li>The <em>&lt;p&gt;</em> element defines a paragraph.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">12</td>
+        <td align="center">HTML Element</td>
+        <td>
+          1. An HTML element is defined by a start tag, some content, and an end
+          tag: <br />
+          <i>&lt;tagname&gt; Content goes here... &lt;/tagname&gt;</i> <br />
+          2. The HTML element is everything from the start tag to the end tag:
+          <br />
+          <i>&lt;h1&gt;My First Heading&lt;/h1&gt;</i>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">13</td>
+        <td align="center">Heading tag - &lt;h&gt;</td>
+        <td align="justify">
+          Heading tags are used to represent heading for the content. HTML
+          headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.
+          &lt;h1&gt; defines the most important heading. Search engines use the
+          headings to index the structure and content of your web pages. Users
+          often skim a page by its headings. It is important to use headings to
+          show the document structure. &lt;h6&gt; defines the least important
+          heading.
+          <ul>
+            <li>
+              &lt;h1&gt; - Main Heading/largest/important heading (2em-32px)
+            </li>
+            <li>&lt;h2&gt; - Second largest heading (1.5em-24px)</li>
+            <li>&lt;h3&gt; - Third largest heading (1.17em-18.72px)</li>
+            <li>&lt;h4&gt; - Fourth largest heading (1em-16px)</li>
+            <li>&lt;h5&gt; - less important heading (0.83em-13.28px)</li>
+            <li>&lt;h6&gt; - least imporant heading (0.67em-10.72px)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">14</td>
+        <td align="center">Preformatted tag - &lt;pre&gt;</td>
+        <td align="justify">
+          Text in a &lt;pre&gt; element is displayed in a fixed-width font, and
+          the text preserves both spaces and line breaks. The text will be
+          displayed exactly as written in the HTML source code. <br />
+          <br />
+          <b>I/p:</b>
+          <pre>&lt;pre&gt;This   is my              paragraph</pre>
+          <b>O/p:</b>
+          <pre>This   is my              paragraph</pre>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">15</td>
+        <td align="center">Paragraph tag - &lt;p&gt;</td>
+        <td align="justify">
+          The &lt;p&gt; tag in HTML signifies a paragraph. Enclosed within the
+          opening &lt;p&gt; and closing &lt;/p&gt; tags, any content is
+          recognized as a paragraph. As a block-level element, a new paragraph
+          inherently starts on a fresh line, with browsers intuitively adding
+          space before and after a paragraph for enhanced readability. <br />
+          <br />
+          <b>I/p:</b>
+          <i>&lt;p&gt;This is some text in first paragraph&lt;/p&gt;</i>
+          <br />
+          <i>&lt;p&gt;This is some text in second paragraph&lt;/p&gt;</i> <br />
+          <br />
+          <b>O/p:</b> <i><p>This is some text in first paragraph</p></i> <br />
+          <i><p>This is some text in second paragraph</p></i>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">16</td>
+        <td align="center">Attributes</td>
+        <td align="justify">
+          HTML attributes provide additional information about HTML elements.
+          All HTML elements can have attributes. Attributes are always specified
+          in the start tag. Attributes usually come in name/value pairs like:
+          name="value" <br />
+          <i>&lt;tagname name="value"&gt;content&lt;/tagname&gt;</i>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">17</td>
+        <td align="center">Anchor tag - &lt;a&gt;</td>
+        <td align="justify">
+          The &lt;a&gt; tag defines a hyperlink, which is used to link from one
+          page to another. The most important attribute of the &lt;a&gt; element
+          is the <em>href</em> attribute, which indicates the link's
+          destination.<br />
+          By default, links will appear as follows in all browsers:
+          <ul>
+            <li>An unvisited link is underlined and blue</li>
+            <li>A visited link is underlined and purple</li>
+            <li>An active link is underlined and red</li>
+          </ul>
+          <b>I/p:</b>
+          <i
+            >&lt;a href="https://www.w3schools.com"&gt;Visit
+            W3Schools.com!&lt;/a&gt;</i
+          >
+          <br />
+          <b>O/p:</b>
+          <i><a href="https://www.w3schools.com">Visit W3Schools.com!</a></i>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">18</td>
+        <td align="center">Anchor tag - &lt;a&gt; attributes</td>
+        <td>
+          1. href (hyper refernce): It specifies where the link goes. <br />
+          2. target: It specifies where the linked url should be open. The
+          values are commonly;
+          <ul>
+            <li>
+              _self : Opens the linked document in the same frame as it was
+              clicked (this is default)
+            </li>
+            <li>_blank : Opens the linked document in a new window or tab</li>
+            <li>
+              _top : Opens the linked document in the full body of the window
+            </li>
+            <li>_parent : Opens the linked document in the parent frame</li>
+            <li>framename : Opens the linked document in the named iframe</li>
+          </ul>
+          3. title: It provides the hint about the link when hovered.
+        </td>
+      </tr>
+      <tr>
+        <td align="center">19</td>
+        <td align="center">Behaviour of elements</td>
+        <td align="justify">
+          Every HTML element has a default display value, depending on what type
+          of element it is. The two most common display values are block and
+          inline. <br />
+          <b>1. Block-level element:</b> A block-level element always starts on
+          a new line, and the browsers automatically add some space (a margin)
+          before and after the element. A block-level element always takes up
+          the full width available (stretches out to the left and right as far
+          as it can). <br />
+          <b>Ex:</b> &lt;p&gt;, &lt;div&gt;, &lt;pre&gt;, &lt;li&gt; <br />
+          <b>2. In-line element:</b> An inline element does not start on a new
+          line.An inline element only takes up as much width as necessary.
+          <br />
+          <b>Ex:</b> &lt;a&gt;, &lt;b&gt;, &lt;br&gt;, &lt;i&gt;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">20</td>
+        <td align="center">Horizontal ruler tag - &lt;hr&gt;</td>
+        <td>
+          The &lt;hr&gt; tag defines a thematic break in an HTML page (e.g. a
+          shift of topic). The &lt;hr&gt; element is most often displayed as a
+          horizontal rule that is used to separate content (or define a change)
+          in an HTML page. <br />
+          <br />
+          <b>I/p:</b> <i>This is a heading.</i><br />
+          <i>&lt;hr&gt;</i><br />
+          <b>O/p:</b> <i>This is a heading.</i><br />
+          <i><hr /></i><br />
+        </td>
+      </tr>
+      <tr>
+        <td align="center">21</td>
+        <td align="center">Break tag - &lt;br&gt;</td>
+        <td>
+          The &lt;br&gt; tag inserts a single line break. The &lt;br&gt; tag is
+          useful for writing addresses or poems. The &lt;br&gt; tag is an empty
+          tag which means that it has no end tag. <br />
+          <br />
+          <b>I/p:</b>
+          <i
+            >&lt;p&gt;Be not afraid of greatness.&lt;br&gt<br />
+            Some are born great,&lt;br&gt<br />
+            some achieve greatness,&lt;br&gt<br />
+            and others have greatness thrust upon them.&lt;/p&gt;</i
+          ><br />
+          <br />
+          <b>O/p:</b>
+          <i
+            ><p>
+              Be not afraid of greatness.<br />
+              Some are born great,<br />
+              some achieve greatness,<br />
+              and others have greatness thrust upon them.
+            </p></i
+          >
+        </td>
+      </tr>
+      <tr>
+        <td align="center">22</td>
+        <td align="center">
+          HTML Comments/Comment tag - &lt;!-- &nbsp;&nbsp;&nbsp; --&gt;
+        </td>
+        <td align="justify">
+          The comment tag is used to insert comments in the source code.
+          Comments are not displayed in the browsers. You can use comments to
+          explain your code, which can help you when you edit the source code at
+          a later date. This is especially useful if you have a lot of code. You
+          can use the comment tag to "hide" scripts from browsers without
+          support for scripts (so they don't show them as plain text). The
+          comment tag does not support any standard and event attributes. <br />
+          <br />
+          <b>I/p:</b>
+          <i
+            >&lt;!--This is a comment. Comments are not displayed in the
+            browser--&gt; <br />
+
+            &lt;p&gt;This is a paragraph.&lt;/p&gt;</i
+          >
+          <br />
+          <br />
+          <b>O/p:</b>
+          <i
+            ><!--This is a comment. Comments are not displayed in the browser-->
+
+            <p>This is a paragraph.</p></i
+          >
+        </td>
+      </tr>
+      <tr>
+        <td align="center">23</td>
+        <td align="center">Table tag - &lt;table&gt;</td>
+        <td align="justify">
+          The &lt;table&gt; tag defines an HTML table. An HTML table consists of
+          one &lt;table&gt; element and one or more &lt;tr&gt;, &lt;th&gt;, and
+          &lt;td&gt; elements. The &lt;tr&gt; element defines a table row, the
+          &lt;th&gt; element defines a table header, and the &lt;td&gt; element
+          defines a table cell. An HTML table may also include &lt;caption&gt;,
+          &lt;colgroup&gt;, &lt;thead&gt;, &lt;tfoot&gt;, and &lt;tbody&gt;
+          elements.
+        </td>
+      </tr>
+      <tr>
+        <td align="center">24</td>
+        <td align="center">Table structure</td>
+        <td>
+          <b>I/p:</b>
+          <pre>
+          <i>&lt;table&gt;
+             &lt;tr&gt;
+               &lt;th&gt;1&lt;/th&gt;
+               &lt;th&gt;2&lt;/the&gt;
+             &lt;/tr&gt;
+             &lt;tr&gt;
+               &lt;td&gt;one&lt;/td&gt;
+               &lt;td&gt;two&lt;/td&gt;
+             &lt;/tr&gt;
+          &lt;/table&gt;
+          </i></pre>
+          <b>O/p:</b
+          ><i
+            ><table>
+              <tr>
+                <th>1</th>
+                <th>2</th>
+              </tr>
+              <tr>
+                <td>one</td>
+                <td>two</td>
+              </tr>
+            </table></i
+          >
+        </td>
+      </tr>
+      <tr>
+        <td align="center">25</td>
+        <td align="center">Table border attribute - <i>border="value"</i></td>
+        <td>
+          We can use border attribute of table tag in HTML to specify border.
+          But it was not supported now in HTML%. Use CSS.<br />
+          <i>&lt;table border="3"&gt;</i>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">26</td>
+        <td align="center">Caption tag - &lt;caption&gt;</td>
+        <td align="justify">
+          The &lt;caption&gt; tag defines a table caption. The &lt;caption&gt;
+          tag must be inserted immediately after the &lt;table&gt; tag. By
+          default, a table caption will be center-aligned above a table. <br />
+          <i
+            >&lt;table&gt;<br />
+            &lt;caption&gt;.......&lt;/caption&gt; <br />
+            &lt;/table&gt;<br />
+          </i>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">27</td>
+        <td align="center">Table padding & spacing attributes</td>
+        <td>
+          HTML tables can adjust the padding inside the cells, and also the
+          space between the cells.<br />
+          <b>HTML Table - Cell Padding:</b> Cell padding is the space between
+          the cell edges and the cell content. Cell padding is the space between
+          the cell edges and the cell content. <br />
+          <i>&lt;table cellpadding="value"&gt;</i>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">28</td>
+        <td align="center">HTML Table - Cell Spacing</td>
+        <td>
+          Cell spacing is the space between each cell. By default the space is
+          set to 2 pixels. <br />
+          <i>&lt;table cellspacing="value"&gt;</i>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">29</td>
+        <td align="center">Rowspan & Colspan attributes</td>
+        <td>
+          HTML tables can have cells that span over multiple rows and/or
+          columns.<br />
+          <b>1. HTML Table - Colspan: </b>To make a cell span over multiple
+          columns, use the colspan attribute:<br />
+          <i>&lt;th colspan="2"&gt;Name&lt;/th&gt;</i><br />
+          The value of the colspan attribute represents the number of columns to
+          span.<br />
+          <b>2. HTML Table - Rowspan: </b>To make a cell span over multiple
+          rows, use the rowspan attribute:<br />
+          <i>&lt;th rowspan="2"&gt;Phone&lt;/th&gt;</i><br />
+          The value of the rowspan attribute represents the number of rows to
+          span.
+        </td>
+      </tr>
+      <tr>
+        <td align="center">30</td>
+        <td align="center">Grouping</td>
+        <td align="justify">
+          Tables consist of rows and columns where each row represents a record
+          and each column represents a field in that record. In some cases, you
+          may want to group the content in the body of the table, such as when
+          you have multiple data points that belong together. <br />
+          <b>Method 1: Using the &lt;tbody&gt; Element:</b> The simplest way to
+          group body content in an HTML table is to use the &lt;tbody&gt;
+          element. The &lt;tbody&gt; element is used to group a set of rows in a
+          table and is typically used to group the main content of a table.
+          <br />
+          <pre><i>&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+           &lt;th&gt;Name&lt;/th&gt;
+           &lt;th&gt;Age&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+           &lt;td&gt;John Doe&lt;/td&gt;
+           &lt;td&gt;25&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</i></pre>
+          <b
+            >Method 2: Using the &lt;colgroup&gt; and &lt;tbody&gt; Elements: </b
+          >Another way to group body content in an HTML table is to use the
+          &lt;colspan&gt; and &lt;tbody&gt; elements together. The
+          &lt;colspan&gt; element allows you to group columns together and apply
+          styles or attributes to the entire group, while the &lt;tbody&gt;
+          element allows you to group rows together. <br />
+          <pre><i>&lt;table&gt;
+    &lt;colgroup span="2"&gt;&lt;/colgroup&gt;
+    &lt;colgroup span="1">&lt;/colgroup&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+         &lt;th colspan="2"&gt;Name&lt;/th&gt;
+         &lt;th&gt;Age&lt;/th&gt;
+         &lt;th&gt&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td colspan="2"&gt;John Doe&lt;/td&gt;
+          &lt;td&gt;25&lt;/td&gt;
+          &lt;td>New York&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td colspan="2"&gt;Jane smith&lt;/td&gt;
+          &lt;td&gt;30&lt;/td&gt;
+          &lt;td>Los angle&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+          </i></pre>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">31</td>
+        <td align="center">Background color - bgcolor</td>
+        <td>
+          The HTML &lt;table&gt; bgcolor Attribute is use to specify the
+          background color of a table. The &lt;table&gt; bgcolor Attribute is
+          not supported by HTML 5 instead of using this we can use CSS
+          background-color property. <br />
+          <i>&lt;table bgcolor="red"&gt;</i>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">32</td>
+        <td align="center">Table sizing - width & height</td>
+        <td>
+          HTML tables can have different sizes for each column, row or the
+          entire table. Use the style attribute with the width or height
+          properties to specify the size of a table, row or column. <br />
+          1. To set the width of a table, add the style attribute to the
+          &lt;table&gt; element: <br />
+          <i>&lt;table style="width:100%"&gt; <br /></i>
+          2. To set the size of a specific column, add the style attribute on a
+          &lt;th&gt; or &lt;td&gt; element: <br />
+          <i>&lt;tr style="width:100%"&gt;</i> <br />
+          To set the height of a specific row, add the style attribute on a
+          table row element: <br />
+          <i>&lt;tr style="height:100%"&gt;</i>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">33</td>
+        <td align="center">VS Code</td>
+        <td align="justify">
+          <b>Visual Studio Code,</b> also commonly referred to as
+          <b>VS Code,</b> is a source-code editor developed by Microsoft for
+          Windows, Linux, macOS and web browsers.VS code is an integrated
+          development environment (IDE). <br />
+          <p align="justify">
+            Visual Studio Code is a streamlined code editor with support for
+            development operations like debugging, task running, and version
+            control. It aims to provide just the tools a developer needs for a
+            quick code-build-debug cycle and leaves more complex workflows to
+            fuller featured IDEs, such as Visual Studio IDE
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">34</td>
+        <td align="center">Features of VS code</td>
+        <td>
+          <ul>
+            <li>It is an Open source</li>
+            <li>Platform supported - macos, windows and Linux</li>
+            <li>Development capabilities</li>
+            <li>Integrated Terminal</li>
+            <li>Extensions</li>
+            <li>Debugging</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">35</td>
+        <td align="center">Basic commands - shortcuts</td>
+        <td>
+          <ul>
+            <li>Ctrl+s - To save the file</li>
+            <li>Ctrl=c - For copying the text</li>
+            <li>Ctrl=v - For pasting the text</li>
+            <li>Ctrl+x - To cut the text</li>
+            <li>Ctrl+a - For select all</li>
+            <li>Ctrl+z - For undo</li>
+            <li>Ctrl+y - For Redo</li>
+            <li>Ctrl -, Ctrl + - For zoom out and zoom in</li>
+            <li>Shift+ (right, left, up & down) arrow - To select</li>
+            <li>Alt+up arrow - To move the line one/more levels up</li>
+            <li>Alt+down arrow - To move the line one/more levels down</li>
+            <li>
+              Shift+Alt+down/up arrow - For multiple cursors/ for writing the
+              code in multiple lines
+            </li>
+            <li>Ctrl+Shift+n - New VS code/window</li>
+            <li>Ctrl+Shift+p - For command pallette</li>
+            <li>Ctrl+Shift+w - To close th editor</li>
+            <li>Ctrl+/ - For comments</li>
+            <li>Ctrl+k+o - For new file</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">36</td>
+        <td align="center">Emmets</td>
+        <td>
+          <p align="justify">
+            Support for Emmet snippets and expansion is built right into Visual
+            Studio Code, no extension required. Emmet 2.0 has support for the
+            majority of the Emmet Actions including expanding Emmet
+            abbreviations and snippets.
+          </p>
+          <ul>
+            <li>
+              ! - For a basic, blank HTML web page structure or html5 structure
+            </li>
+            <li>
+              Basic tag names - To create HTML tags<br />
+              Ex: Type p instead of &lt;p&gt; for paragraph
+            </li>
+            <li>
+              [attribute:"name"] - To create attributes for the tags<br />
+              Ex:img[src="cat.jpg"][alt="Cute cat pic"] —> &lt;img src="cat.jpg"
+              alt="Cute cat pic" /&gt;
+            </li>
+            <li>
+              {} - To write a content<br />
+              Ex:p{This is a paragraph} —> &lt;p&gt;This is a
+              paragraph&lt;/p&gt;
+            </li>
+            <li>
+              Sibling & children (+, >) - To make the structure
+              <pre>
+Ex: section+section —>
+      &lt;section&gt;&lt;/section&gt;
+      &lt;section&gt;&lt;/section&gt;
+    ul&lt;li —>
+      &lt;ul&gt;
+        &lt;li&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;</pre
+              >
+            </li>
+            <li>
+              Climbing up (^) - To keep the tags on same level (like head and
+              body tag in html)
+              <pre>
+Ex: html>head>title^body -->
+    &lt;html&gt;
+      &lt;head&gt;
+        &lt;title&gt;....&lt;/title&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+    
+      &lt;/body&gt; 
+    &lt;/html&gt;</pre
+              >
+            </li>
+            <li>
+              Mulitplication (*) - To generate mulitiple tags
+              <pre>
+Ex: tr>td*3 -->
+    &lt;tr&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+    &lt;/tr&gt;</pre
+              >
+            </li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">37</td>
+        <td align="center">Formatting tags-1</td>
+        <td align="justify">
+          Formatting is a process of formatting text for better look and feel.
+          There are many formatting tags in HTML. These tags are used to make
+          text bold, italicized, or underlined.<br />
+          <b>1. &lt;b&gt; tag: </b>&lt;b&gt; element defines bold text, without
+          any extra importance.<br />
+          <i
+            ><b>Ex:</b> &lt;b&gt;This text is bold&lt;/b&gt; <br />
+            <b>O/p:</b> <b>This text is bold.</b></i
+          ><br />
+          <b>2. &lt;strong&gt; tag: </b>&lt;strong&gt; element defines text with
+          strong importance. The content inside is typically displayed in bold.
+          <br />
+          <i
+            ><b>Ex:</b> &lt;strong&gt; This text is important!
+            &lt;/strong&gt;<br />
+            <b>O/p: </b><strong>This text is important!</strong></i
+          ><br />
+          <b>3. &lt;i&gt; tag: </b> &lt;i&gt; element defines a part of text in
+          an alternate voice or mood. The content inside is typically displayed
+          in italic. The &lt;i&gt; tag is often used to indicate a technical
+          term, a phrase from another language, a thought, a ship name, etc.<br />
+          <b>Ex: </b>&lt;i&gt;This text is italic&lt;/i&gt;<br />
+          <b>O/p: </b><i>This text is italic</i><br />
+          <b>4. &lt;em&gt; tag: </b>&lt;em&gt; element defines emphasized text.
+          The content inside is typically displayed in italic. A screen reader
+          will pronounce the words in &lt;em&gt; with an emphasis, using verbal
+          stress.<br />
+          <b>Ex: </b>&lt;em&gt;This text is emphasized!&lt;/em&gt;<br />
+          <b>O/p: </b><em>This text is emphasized!</em><br />
+          <b>5. &lt;mark&gt; tag: </b>&lt;mark&gt; element defines text that
+          should be marked or highlighted.<br />
+          <i
+            ><b>Ex: </b>There is no &lt;mark&gt;milk&lt;/mark&gt; in the fridge.
+            <br />
+            <b>O/p: </b>There is no <mark>milk</mark> in the fridge.</i
+          >
+          <br />
+          <b>6. &lt;del&gt; tag:</b> &lt;del&gt; element defines text that has
+          been deleted from a document. Browsers will usually strike a line
+          through deleted text.<br />
+          <i
+            ><b>Ex: </b>&lt;p&gt;My favuorite color is
+            &lt;del&gt;red&lt;/del&gt; black.&lt;p&gt;
+            <p>My favuorite color is <del>red</del> black.</p></i
+          >
+          <b>7. &lt;sub&gt; tag: </b>&lt;sub&gt; element defines subscript text.
+          Subscript text appears half a character below the normal line, and is
+          sometimes rendered in a smaller font. Subscript text can be used for
+          chemical formulas, like H<sub>2</sub>O.<br />
+          <i
+            ><b>Ex: </b>&lt;p&gt;This is &lt;sub&gt;subscript&lt;/sub&gt;
+            text&lt;p&gt;
+            <p><b>O/p:</b> This is <sub>subscript</sub> text</p></i
+          >
+          <b>8. &lt;sup&gt; tag: </b>&lt;sup&gt; element defines superscript
+          text. Superscript text appears half a character above the normal line,
+          and is sometimes rendered in a smaller font. Superscript text can be
+          used for footnotes, like WWW<sup>[1]</sup><br />
+          <i
+            ><b>Ex:</b>&lt;p&gt;This is &lt;sup&gt;superscript&lt;/sup&gt;
+            text.&lt;/p&gt;<br />
+            <p><b>O/p:</b> This is <sup>superscript</sup> text</p></i
+          >
+          <b>9. &lt;u&gt; tag: </b>&lt;u&gt; tag represents some text that is
+          unarticulated and styled differently from normal text, such as
+          misspelled words or proper names in Chinese text. The content inside
+          is typically displayed with an underline. Avoid using the &lt;u&gt;
+          element where it could be confused for a hyperlink!<br />
+          <i
+            ><b>Ex: </b>&lt;p&gt; This is &lt;u&gt;mispled&lt;/u&gt;
+            text&lt;/p&gt;</i
+          >
+          <br />
+          <p><b>O/p: </b>This is <u>mispled</u> text</p>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">38</td>
+        <td align="center">Formatting tags-2</td>
+        <td>
+          <b>10. &lt;kbd&gt; tag: </b>&lt;kbd&gt; tag is used to define keyboard
+          input. The content inside is displayed in the browser's default
+          monospace font.<br />
+          <i
+            ><b>Ex: </b>&lt;p&gt;Press &lt;kbd&gt;Ctrl+c&lt;/kbd&gt; for copying
+            the text.&lt;/p&gt;
+            <p><b>O/p: </b>Press <kbd>Ctrl+c</kbd> for copying the text.</p></i
+          >
+          <b>11. &lt;code&gt; tag:</b> &lt;code&gt; tag is used to define a
+          piece of computer code. The content inside is displayed in the
+          browser's default monospace font. <br />
+          <i
+            ><b>Ex: </b>&lt;p&gt;The HTML &lt;code&gt;button&lt;code&gt; tag
+            defines a clickable button.&lt;/p&gt;
+            <p>
+              <b>O/p:</b> The HTML <code>button</code> tag defines a clickable
+              button.
+            </p></i
+          >
+          <b>12. &lt;blockquote&gt; tag: </b>&lt;blockquote&gt;tag specifies a
+          section that is quoted from another source. Browsers usually indent
+          &lt;blockquote&gt; elements. <br />
+          <i
+            ><b>Ex: </b>&lt;blockquote
+            cite="https://en.wikipedia.org/wiki/HTML"&gt;Hypertext Markup
+            Language (HTML) is the standard markup language for documents
+            designed to be displayed in a web browser.&lt;blockquote&gt;<br />
+            <b>O/p:</b>
+            <blockquote cite="https://en.wikipedia.org/wiki/HTML">
+              Hypertext Markup Language (HTML) is the standard markup language
+              for documents designed to be displayed in a web browser.
+            </blockquote></i
+          >
+          <b>13. &lt;abbr&gt; tag: </b>&lt;abbr&gt; tag defines an abbreviation
+          or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".<br />
+          <i
+            ><b>Ex: </b>&lt;p&gt;The &lt;abbr title="World Health
+            Organization"&gt;WHO&lt;/abbr&gt; was founded in 1948.&lt;p&gt;<br />
+            <b>O/p: </b>
+            <p>
+              The <abbr title="World Health Organization">WHO</abbr> was founded
+              in 1948.
+            </p></i
+          >
+          <b>14. &lt;q&gt; tag: </b>The &lt;q&gt; tag defines a short quotation.
+          Browsers normally insert quotation marks around the quotation. <br />
+          <i
+            ><b>Ex: </b>&lt;p&gt;His goal is to become a
+            &lt;q&gt;singer.&lt;/q&gt; <b>O/p: </b>
+            <p>His goal is to become a <q>singer.</q></p></i
+          >
+          <b>15. &lt;address&gt; tag:</b> The &lt;address&gt; tag defines the
+          contact information for the author/owner of a document or an
+          article.The contact information can be an email address, URL, physical
+          address, phone number, social media handle, etc.<br />
+          <b>Ex: </b>&lt;address&gt; Written by &lt;a
+          href="mailto:webmaster@example.com"&gt;Jon Doe&lt;/a&gt;.<br />
+          Visit us at:<br />
+          Example.com<br />
+          Box 564, Disneyland<br />
+          USA <br />
+          &lt;/address&gt; <br />
+          <b>O/p:</b>
+          <address>
+            Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br />
+            Visit us at:<br />
+            Example.com<br />
+            Box 564, Disneyland<br />
+            USA
+          </address>
+          <b>16. &lt;cite&gt; tag: </b>The &lt;cite&gt; tag defines the title of
+          a creative work (e.g. a book, a poem, a song, a movie, a painting, a
+          sculpture, etc.). <br />
+          <b>Ex: </b>&lt;p&gt;&lt;cite&gt;The Scream&lt;/cite&gt; by Edward
+          Munch. Painted in 1893.&lt;/p&gt;
+          <p>
+            <b>O/p: </b><cite>The Scream</cite> by Edward Munch. Painted in
+            1893.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">39</td>
+        <td align="center">&lt;div&gt; tag</td>
+        <td align="justify">
+          &lt;div&gt; is a block-level element. It is used to group the multiple
+          elements. It is also used for creating sections for layouts. The
+          &lt;div&gt; has common attributes such as : class, id, & onclick.
+        </td>
+      </tr>
+      <tr>
+        <td align="center">40</td>
+        <td align="center">&lt;span&gt; tag</td>
+        <td align="justify">
+          &lt;span&gt; is an Inline-element. It is used to group the text. And
+          it is also used for styling the part of the text. &lt;span&gt; tag has
+          attributes such as: class, id, onclick.
+        </td>
+      </tr>
+      <tr>
+        <td align="center">41</td>
+        <td align="center">Absolute path</td>
+        <td align="justify">
+          <b>Absolute path: </b>The full URL which includes protocol & external
+          is called as Absolute path.<br />
+          <b>Advantages:</b>
+          <ul>
+            <li>Easy to link</li>
+            <li>Easy to deploy</li>
+          </ul>
+          <b>Disadvantages:</b>
+          <ul>
+            <li>Dependancy</li>
+            <li>Copy right issues</li>
+            <li>Long URL</li>
+            <li>Depends on Internet connection</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">42</td>
+        <td align="center">Relative path</td>
+        <td>
+          <b>Relative path: </b>The paths which refers to current document are
+          called as Relative paths.<br />
+          <b>Advantages:</b>
+          <ul>
+            <li>Flexible</li>
+            <li>Shorter URL</li>
+          </ul>
+          <b>Disadvantages:</b>
+          <ul>
+            <li>Context Dependent</li>
+            <li>Less clear (when deeply nested)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">43</td>
+        <td align="center">Types of Relative paths</td>
+        <td>
+          <b>1. Same directory: </b>This refers to an image located in the same
+          directory as the HTML file <br />
+          <i>&lt;img src="logo.png" alt="logo"&gt;</i><br />
+          <b>2. Subdirectory: </b>It will direct to a file in a folder.<br />
+          <i>&lt;a href="subdirectory/sub2.html"&gt;subchild&lt;/a&gt;</i><br />
+          <b>3. Parent directory: </b>It will helps to direct to the folder out
+          of our directory. The .. indicates moving up one level to the parent
+          directory.<br />
+          <i> &lt;a href="../17r/folder/file.html"&gt;17r&lt;/a&gt;</i> <br />
+          <b>4. Root directory</b>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">44</td>
+        <td align="center">Image tag - &lt;img&gt;</td>
+        <td align="justify">
+          &lt;img&gt; tag is used to embed the image to the document. it has a
+          source - <i>src</i> attribute for defining the path or url of the
+          image.<br />
+          <b>Attributes:</b><br />
+          <b>src: </b>Defines the path/url.<br />
+          <b>width: </b>To specify the width of the image in pixcels or in %.<br />
+          <b>height: </b>To specify the height of the image in pixcels or in
+          %.<br />
+          <b>title: </b>It shows the details about the image when hovered.<br />
+          <b>alt: </b>It is used to show the alternative text when the image is
+          broken. And also used to define the image for the visually impaired
+          people.<br />
+          <b>download: </b>To download the content/image of the url.
+        </td>
+      </tr>
+      <tr>
+        <td align="center">45</td>
+        <td align="center">
+          Downloading the image/content using &lt;a&gt; tag
+        </td>
+        <td>
+          &lt;a href="nodejs.png" download="nodejs"&gt;<br />
+          &lt;img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbherOAFmMjpCwxbSaH99Q5IRiYhctVkjCOQ&s"
+          width="20% height="200" /&gt; <br />
+          <br />OR <br />
+          <br />&lt;a&gt; &lt;img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbherOAFmMjpCwxbSaH99Q5IRiYhctVkjCOQ&s"&gt;&lt;/a&gt;<br />
+          &lt; href="nodejs.png" download="nodejs-logo"&gt;click here to
+          download&lt;a/&gt;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">46</td>
+        <td align="center">
+          Adding Mobile no., Mail, & whatsapp to &lt;a&gt; tag
+        </td>
+        <td>
+          <b>1. Adding Mobile no. to &lt;a&gt; tag:</b><br />
+          &lt;a href="tel:1234567890"&gt;call us&lt;/a&gt; <br />
+          <b>or</b><br />
+          &lt;a href="tel:1234567890"&gt;<br />
+          &lt;img src="........."/&gt;&lt;/a&gt;<br />
+          <b>2. Adding mail to &lt;a&gt; tag:</b><br />
+          &lt;a href="mailto:swethabura01@gmail.com"&gt;mail us&lt;/a&gt;<br />
+          <b>or</b><br />
+          &lt;a href="mailto:swethabura01@gmail.com"&gt;<br />
+          &lt;img src="........."/&gt;&lt;/a&gt;<br />
+          <b>3. Adding whatsapp to &lt;a&gt; tag:</b><br />
+          &lt;a href="https://wa.me/1234567890"&gt;whatsapp us&lt;/a&gt; <br />
+          <b>or</b><br />
+          &lt;a href="https://wa.me/1234567890"&gt;<br />
+          &lt;img src="........."/&gt;&lt;/a&gt;<br />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

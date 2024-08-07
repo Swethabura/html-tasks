@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Emmets</title>
+  </head>
+  <body>
+    <h2 align="center">Semantic Elements in HTML</h2>
+    <table
+      align="center"
+      border="2"
+      cellpadding="10"
+      cellspacing="10"
+      bgcolor="orange"
+    >
+      <tr bgcolor="pink">
+        <td colspan="3">Header</td>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+      </tr>
+
+      <tr bgcolor="pink">
+        <td colspan="3">Nav</td>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+      </tr>
+
+      <tr bgcolor="yellow">
+        <td colspan="2" rowspan="2">Section</td>
+        <td rowspan="4">Aside</td>
+        <!-- <td></td> -->
+      </tr>
+
+      <tr>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+      </tr>
+
+      <tr bgcolor="yellow">
+        <td colspan="2" rowspan="2">Article</td>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+      </tr>
+
+      <tr>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+      </tr>
+
+      <tr bgcolor="pink">
+        <td colspan="3">Footer</td>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+      </tr>
+    </table>
+    <h2 align="center">Semantic Blog Structure</h2>
+    <table
+      align="center"
+      border="2"
+      cellpadding="20"
+      cellspacing="10"
+      bgcolor="Indianred"
+    >
+      <tr bgcolor="lightgreen">
+        <td rowspan="2" colspan="3">Header</td>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+      </tr>
+      <tr>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+      </tr>
+      <tr bgcolor="lightgreen">
+        <td rowspan="5">Nav</td>
+        <td colspan="2">Main</td>
+        <!-- <td></td> -->
+      </tr>
+      <tr bgcolor="yellow">
+        <td rowspan="2" colspan="2">Article</td>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+      </tr>
+      <tr>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+      </tr>
+      <tr bgcolor="yellow">
+        <td colspan="2" rowspan="2">Article</td>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+      </tr>
+      <tr>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+      </tr>
+      <tr bgcolor="lightgreen">
+        <td colspan="3">Footer</td>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+      </tr>
+    </table>
+    <h2 align="center">Emmet in Visual Studio Code</h2>
+    <p align="justify">
+      Support for Emmet snippets and expansion is built right into Visual Studio
+      Code, no extension required. Emmet 2.0 has support for the majority of the
+      Emmet Actions including expanding Emmet abbreviations and snippets.
+    </p>
+    <p align="justify">
+      When you start typing an Emmet abbreviation, you will see the abbreviation
+      displayed in the suggestion list. If you have the suggestion documentation
+      fly-out open, you will see a preview of the expansion as you type. If you
+      are in a stylesheet file, the expanded abbreviation shows up in the
+      suggestion list sorted among the other CSS suggestions.
+    </p>
+    <table align="center" border="2" cellpadding="20" cellspacing="10">
+      <tr>
+        <td><b>!</b></td>
+        <td>For a basic, blank HTML web page structure or html5 structure</td>
+      </tr>
+      <tr>
+        <td><b>Basic tag names</b></td>
+        <td>
+          To create HTML tags<br />
+          Ex: Type p instead of (<)p(>) for paragraph
+        </td>
+      </tr>
+      <tr>
+        <td><b>[attribute:"name"]</b></td>
+        <td>
+          To create attributes for the tags<br />
+          Ex:img[src="cat.jpg"][alt="Cute cat pic"] —> (<)img src="cat.jpg"
+          alt="Cute cat pic" />
+        </td>
+      </tr>
+      <tr>
+        <td><b>{}</b></td>
+        <td>
+          To write a content<br />
+          Ex:p{This is a paragraph} —> (<)p>This is a paragraph(<)/p>
+        </td>
+      </tr>
+      <tr>
+        <td><b>Sibling & children (+, >)</b></td>
+        <td>
+          To make the structure
+          <pre>
+            Ex: section+section —><br>
+            (<)section(>)(<)/section(>)<br>
+            (<)section(>)(<)/section(>)<br>
+            ul>li —><br> 
+            (<)ul(>)<br>
+                (<)li(>)<br>
+                (<)/li(>)<br>
+            (<)/ul(>)
+        </pre>
+        </td>
+      </tr>
+      <tr>
+        <td><b>Climbing up (^)</b></td>
+        <td>
+          To keep the tags on same level (like head and body tag in html)
+          <pre>
+                Ex: html>head>title^body -->
+
+                (<)html(>)
+                   (<)head(>)
+                      (<)title(>)
+                      (<)/title(>)
+                   (<)/head(>)
+                   (<)body(>)
+
+                   (<)/body(>) 
+                (<)/html(>)     
+            </pre
+          >
+        </td>
+      </tr>
+      <tr>
+        <td><b>Mulitplication (*)</b></td>
+        <td>
+          To generate mulitiple tags
+          <pre>
+                Ex: tr>td*3 -->
+
+                (<)tr(>)
+                   (<)td(>)...(<)/td(>)
+                   (<)td(>)...(<)/td(>)
+                   (<)td(>)...(<)/td(>)
+                (<)/tr(>)
+            </pre
+          >
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

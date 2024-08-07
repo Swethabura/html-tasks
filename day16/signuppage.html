@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Page</title>
+  </head>
+  <body
+    style="margin-top: 4%; margin-left: 20%; margin-right: 20%"
+    background="https://www.teahub.io/photos/full/87-871799_hd-background-clean.jpg"
+  >
+    <center>
+      <form action="">
+        <h1 style="color: aliceblue">Sign-up</h1>
+        <hr />
+        <br />
+        <label for="username" style="color: aliceblue"
+          ><big>&nbsp;&nbsp;&nbsp;&nbsp;Name : &nbsp;&nbsp;</big></label
+        >
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter your full name"
+          autofocus
+          required
+        />
+        <br /><br />
+
+        <label for="email" style="color: aliceblue"
+          ><big>&nbsp;&nbsp;&nbsp;&nbsp;Email : &nbsp;&nbsp;</big></label
+        >
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Ex: example@gmail.com"
+          required
+        />
+        <br /><br />
+
+        <label for="contact" style="color: aliceblue"
+          ><big>Contact : &nbsp;&nbsp;</big></label
+        >
+        <input
+          type="number"
+          name="contactno"
+          id="contact"
+          placeholder="Enter your number"
+          required
+        />
+        <br /><br />
+
+        <label for="dob" style="color: aliceblue"
+          ><big>Date Of Birth :&nbsp;&nbsp;&nbsp;&nbsp;</big></label
+        >
+        <input type="date" name="dob" id="dob" /> <br /><br />
+
+        <label for="gender" style="color: aliceblue"><big>Gender :</big></label>
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male" style="color: aliceblue">Male</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female" style="color: aliceblue">Female</label>
+        <input type="radio" name="gender" id="others" value="others" />
+        <label for="others" style="color: aliceblue">Others</label
+        ><br /><br /><br /><br />
+
+        <label for="password" style="color: aliceblue"
+          ><big
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter Password : &nbsp;&nbsp;</big
+          ></label
+        >
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Ex: Aman@12$"
+          required
+        /><br /><br />
+
+        <label for="confirmpassword" style="color: aliceblue"
+          ><big>Confirm Password : &nbsp;&nbsp;</big></label
+        >
+        <input
+          type="password"
+          name="confirmpassword"
+          id="confirmpassword"
+          placeholder="Confirm password"
+          required
+        />
+        <br /><br /><br />
+
+        <input
+          type="submit"
+          value="Sign-up"
+          formaction="signupsuccesspage.html"
+        />&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset" />
+        <br /><br /><br />
+
+        <label for="login" style="color: aliceblue"
+          ><big>Already have an account?</big></label
+        ><br /><br />
+
+        <a href="loginpage.html">Login</a>
+      </form>
+    </center>
+  </body>
+</html>
